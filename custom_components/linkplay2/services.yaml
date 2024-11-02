@@ -9,7 +9,7 @@ join:
       required: true
       selector:
         entity:
-          integration: linkplay
+          integration: linkplay2
     entity_id:
       name: Slave Entity ID
       description: Entity ID(s) of the player(s) that will connect to the master. Switch to YAML mode to manually add more, separated by comma.
@@ -17,7 +17,7 @@ join:
       required: true
       selector:
         entity:
-          integration: linkplay
+          integration: linkplay2
 
 unjoin:
   name: Unjoin
